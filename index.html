@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnab's Portfolio</title>
+    <style>
+       
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        /* header{
+            position:sticky;
+            top:0;
+            background:white;
+          } */
+        #a1{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 200%;
+            color:#212121
+            
+        }
+        #a1:hover{
+            animation: animate 5s linear infinite;
+        }
+        @keyframes animate {
+            0%{
+                color: rgb(29, 119, 7);
+            }
+            25%{
+                color: rgb(255, 0, 0);
+            }
+            50%{
+                color: rgb(255, 47, 220);
+            }
+            75%{
+                color: blue;
+            }
+            100%{
+                color: rgb(29, 255, 59);
+            }
+        }
+        .kai{
+            
+            position: fixed;
+        }
+        .hero{
+            position:relative;
+            width: 100%;
+            height: 100vh;
+            background: #aecbff;
+        }
+        nav{
+            display: flex;
+            width: 100%;
+            margin: auto;
+            padding: 10px 0px;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            background-color: #fff;
+            
+        }
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 10px 20px;
+            font-size: 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        nav ul li a:hover{
+            color: rgb(247, 129, 18);
+            transform: scale(1.03);
+        }
+        .dete1{
+            margin-left: 8%;
+            margin-top: 15%;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .dete1 h1{
+            font-size: 50px;
+            color: #212121;
+            margin-bottom: 20px;
+        }
+        span{
+            color: rgb(11, 15, 245);
+        }
+        span:hover{
+            color: orangered;
+        }
+        .dete1 p{
+            color: #555;
+            line-height: 22px;
+
+        }
+        .dete1 a{
+            background-color: #212121;
+            padding: 10px 18px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #fff;
+            display: inline-block;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        .dete1 a:hover{
+            background-color: rgb(255, 102, 0);
+            color: #000;
+        }
+        .images{
+            width: 20%;
+            height: 10%;
+            position: absolute;
+            bottom: -400;
+            top: 300px;
+            right: 200px;
+        }
+
+        .images img{
+            height: 2500%;
+            position:absolute;
+            left: 50%;
+            bottom: -300%;
+            transform: translateX(-60%);
+            transition: bottom 2s,left 1s;
+        }
+        .images:hover .shape{
+            bottom: 40%;
+        }
+        .images:hover .pic{
+            left: 45%;
+        }
+
+        @media (max-width: 844px) { 
+            .hero {
+                position: relative;
+                width: 100%;
+                height: 119vh;
+                background: #aecbff;
+            }
+            .images img {
+                height: 2426%;
+                position: absolute;
+                left: -23%;
+                bottom: -300%;
+                transform: translateX(-72%);
+                transform: translateY(-196px);
+                height: 269px;
+                transition: bottom 2s,left 1s;
+            }
+        }
+
+        #warning-message { display: none; }
+    @media only screen and (orientation:portrait){
+        #wrapper { display:none; }
+        #warning-message { display:block; }
+        body{
+            /* background-color: rgb(63, 131, 70); */
+            animation: animate1 30s linear infinite;
+        }
+        @keyframes animate1 {
+            0%{
+                background-color: rgb(255, 47, 220);
+            }
+            25%{
+                background-color: rgb(255, 0, 0);
+            }
+            50%{
+                background-color: rgb(255, 47, 220);
+            }
+            75%{
+                background-color: rgb(74, 15, 156);
+            }
+            100%{
+                background-color: rgb(255, 0, 115);
+            }
+        }
+        img{
+            /* height: 308px; */
+    padding: 272px 36px;
+    /* transform: translateY(402px); */
+    transform: translateX(-83px);
+    position: relative;
+}
+        h1{
+            color:red;
+        }
+        h2{
+            color:blue;
+        }
+        .write{
+            padding: auto;
+        }
+    }
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+    }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+    <div class="hero">
+        <header>
+        <nav>
+            <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgRuPiJxWP8fJi1i5JQ94TuFW7MbyV4nw5ujl8uD-3FRgS_qv5bB46inZXXc_6iSkmJvz6e2DS62l6qZl27znLuCECMwtRQpWkeKjrC2GVz7x8lYGqzHY8S83a7neYUpoVlb_jtHH68Nw9ac9jihyVeG_zb4j0-Xt77f_ZuZ-ChkBZWZlqJd8KwnFhVxQ" height="50px">
+            <h1 id="a1" class="i2">
+                Arnab Manna</h1>
+            <ul>
+                <li><a href="mailto:arnabmanna034@gmail.com">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/arnab-manna-539a7522b/">Lindedin</a></li>
+                <li><a href="https://github.com/ArnabManna-oss">Projects</a></li>
+                <li><a href="#">Hire me</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="dete1">
+            <div>
+            <h1>I'm Arnab <span>Manna</span></h1>
+            <p>this is my official portfolio website to show all
+                <br>Details and work and experiences I had 
+            </p>
+            <a href="https://drive.google.com/file/d/1EUVDrUZFZbBZyzHajfxDxHvBAX-vF79u/view?usp=sharing">Download my CV</a>
+            </div>
+            <div class="images">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXtm2UX9_GGo7fUVvRJEGYBdyKuJ3uJ7cgkI1ESj8VMxt7DR2hulBJHkFClVFCMl04Ei9aounTZHspGRbgOgLUJfqMGExOWk7fejQDqo6iDQZVwUxQ3HSddSv76pGidTZ0wJen6kzvEhEyNovXKuw7dbQMi-9VWIJy-iwCdkeWlga47NiP-tGSmuHIAw/s320/shape.png" class="shape">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrWWK7W5yqyibNnO8EmIzcwACFQ5SBPIzGzM0pCsks_m2-xky8DAXpUQiWU0-TvAQqU5NqE9mi3WO5DQ7B8yl42BczpRpy5VxQTkBK4dzT7lV1FLi8-Zl5szwhPsQrgp2CnKHMTDHVgXI97OEd5XoW-ylHY8o0rKgk6rR_v-I9hXI8e_SGlU_LiH6Egg/s320/pic.png" class="pic">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="warning-message">
+    <img class="glass" src="giphy.gif" alt="glass">
+</div>
+</body>
+</html>
